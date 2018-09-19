@@ -11,6 +11,10 @@
 		88FCA3AF2151FDC0006B7641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3AD2151FDC0006B7641 /* Main.storyboard */; };
 		88FCA3B12151FDC2006B7641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3B02151FDC2006B7641 /* Assets.xcassets */; };
 		88FCA3B42151FDC2006B7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3B22151FDC2006B7641 /* LaunchScreen.storyboard */; };
+		88FCA3BD21520637006B7641 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3BC21520637006B7641 /* chat.storyboard */; };
+		88FCA3BF21520657006B7641 /* message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3BE21520657006B7641 /* message.storyboard */; };
+		88FCA3C121520664006B7641 /* settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3C021520664006B7641 /* settings.storyboard */; };
+		88FCA3C321520674006B7641 /* geofence.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FCA3C221520674006B7641 /* geofence.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		88FCA3B02151FDC2006B7641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FCA3B32151FDC2006B7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FCA3B52151FDC2006B7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FCA3BC21520637006B7641 /* chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
+		88FCA3BE21520657006B7641 /* message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = message.storyboard; sourceTree = "<group>"; };
+		88FCA3C021520664006B7641 /* settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = settings.storyboard; sourceTree = "<group>"; };
+		88FCA3C221520674006B7641 /* geofence.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = geofence.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		88FCA3A82151FDC0006B7641 /* TabBarTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				88FCA3BB215205EC006B7641 /* Storyboards */,
 				88FCA3A92151FDC0006B7641 /* AppDelegate.swift */,
 				88FCA3AD2151FDC0006B7641 /* Main.storyboard */,
 				88FCA3B02151FDC2006B7641 /* Assets.xcassets */,
@@ -59,6 +68,17 @@
 				88FCA3B52151FDC2006B7641 /* Info.plist */,
 			);
 			path = TabBarTemplate;
+			sourceTree = "<group>";
+		};
+		88FCA3BB215205EC006B7641 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				88FCA3BC21520637006B7641 /* chat.storyboard */,
+				88FCA3BE21520657006B7641 /* message.storyboard */,
+				88FCA3C021520664006B7641 /* settings.storyboard */,
+				88FCA3C221520674006B7641 /* geofence.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88FCA3B42151FDC2006B7641 /* LaunchScreen.storyboard in Resources */,
+				88FCA3C321520674006B7641 /* geofence.storyboard in Resources */,
+				88FCA3C121520664006B7641 /* settings.storyboard in Resources */,
 				88FCA3B12151FDC2006B7641 /* Assets.xcassets in Resources */,
+				88FCA3BF21520657006B7641 /* message.storyboard in Resources */,
+				88FCA3BD21520637006B7641 /* chat.storyboard in Resources */,
 				88FCA3AF2151FDC0006B7641 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
